@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Section 2 - Unlocking the power of HTML</title>
+  <style>
+    body {
+      width: 960px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      width: 400px;
+    }
+
+    footer {
+      height: 50px;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Section 2 - Unlocking the power of HTML</h1>
+  <h3>Block and inline elements</h3>
+  <p>Block - take up the full width and start on a new line</p>
+
+  <h3>
+    <a href="https://www.w3schools.com/html/html_entities.asp">HTML Entities</a>
+  </h3>
+  <p>Reserved characters in HTML must be replaced with character entities. Characters that are not present on your keyboard
+    can also be replaced by entities.</p>
+
+  <h3>Tables</h3>
+  <p> tables have 3 sections head, body and footer. table row tags ( a row of cells that go across the table). In the head you
+    need a row and each cell in the row will be a th tag. In the body you need a row and each cell in the row will be a td
+    (table data) tag. For more content you add more rows. Not really sure about the
+    <a href="https://www.w3schools.com/tags/tag_tfoot.asp">table footer.</a>
+  </p>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Heading 1</th>
+        <th>Heading 2</th>
+        <th>Heading 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Content</td>
+        <td>Content</td>
+        <td>Content</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Content</td>
+        <td>Content</td>
+        <td>Content</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h3>Forms</h3>
+
+  <form action="#">
+    <!-- username -->
+    <label for="username">Username</label>
+    <input type="text" placeholder="username">
+    <br>
+    <!-- password -->
+    <label for="password">Password</label>
+    <input type="text" placeholder="password">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <h4>User Message Form Example</h4>
+  <form action="#">
+    <!-- Name -->
+    <label for="name">Name</label>
+    <input type="text" name="userName" placeholder="Sailor Moon">
+    <br>
+    <!-- password -->
+    <label for="email">Email</label>
+    <input type="email" name="userEmail" placeholder="sailormoon@gmail.com">
+    <br>
+    <!-- message -->
+    <label for="message">Message</label>
+    <textarea name="userMessage" cols="30" rows="10"></textarea>
+    <br>
+    <br>
+    <!-- button -->
+    <input type="submit" value="Submit">
+  </form>
+
+  <h4>Random feature form</h4>
+  <form action="#">
+    <!-- Name -->
+    <label for="name">Name</label>
+    <input type="text" name="userName" placeholder="Sailor Moon" required>
+    <br>
+    <!-- birthday -->
+    <label for="birthday">Birthday</label>
+    <input type="date" name="bday">
+    <br>
+    <!-- color -->
+    <label for="color">Favorite Color</label>
+    <input type="color" name="color">
+    <br>
+    <!-- likes -->
+    <label for="likes">Likes</label>
+    <br>
+    <input type="checkbox" name="running">Running
+    <br>
+    <input type="checkbox" name="walking">Walking
+    <br>
+    <input type="checkbox" name="sleeping">Sleeping
+    <br>
+    <!-- gender -->
+    <label for="gender">Gender</label>
+    <br>
+    <input type="radio" name="gender" value="male" checked> Male
+    <br>
+    <input type="radio" name="gender" value="female"> Female
+    <br>
+    <input type="radio" name="gender" value="other"> Other
+    <br>
+    <br>
+    <!-- button -->
+    <input type="submit" value="Submit">
+  </form>
+
+  <h3>Divs and Spans</h3>
+
+
+  <footer>
+    <p>Notes from Section 2 - Unlocking the power of HTML</p>
+  </footer>
+</body>
+
+</html>
