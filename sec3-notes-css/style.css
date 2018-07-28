@@ -1,8 +1,26 @@
 body {
-  background-color: #e8e8e8;
-  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  font-size: 50px;
+p.box {
+  background-color: #f2f2f2;
+  width: 300px;
+  height: 150px;
+  border: 25px solid #4ebde5;
+  margin: 25px;
+  padding: 45px;
+}
+
+.sidebar {
+  width: 350px;
+  height: 600px;
+  float: right;
+  background-color: #ededed;
+  padding: 5px;
+}
+
+.column {
+  width: 300px;
+  float: left;
+  padding: 5px;
 }
