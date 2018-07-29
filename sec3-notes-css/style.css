@@ -36,6 +36,8 @@ h1 {
   border: 2px solid #3b3b3b;
   color: #1f1f1f;
   padding: 20px;
+  height: 2000px;
+  position: relative;
 }
 
 .boxed {
@@ -43,10 +45,49 @@ h1 {
   color: #fff;
   text-align: center;
   font-weight: bold;
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
 }
 
 #relative {
   position: relative;
+  /* push down from top */
+  top: 20px;
+  /* push from right to left */
+  right: 20px;
+}
+
+#absolute {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#fixed {
+  position: fixed;
+}
+
+/* Lessons on media queries */
+
+.column {
+  width: 300px;
+  float: left;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background: #5291aa;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background: #b1c66d;
+  }
+  .column {
+    width: 250px;
+  }
 }
