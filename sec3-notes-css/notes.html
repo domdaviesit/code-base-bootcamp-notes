@@ -5,19 +5,137 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>CSS notes</title>
+  <title>Star Wars Land</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Pontano+Sans|Righteous" rel="stylesheet">
 </head>
 
 <body>
-  <h1>CSS notes</h1>
-  <p>We changed bg color to pink and centered the text using the body tag. Used body tag as it's such a simple example.</p>
-  <p>Styled h1 using font size.</p>
+  <!-- a wrapper for entire content -->
+  <div class="container">
+    <div class="topHeader">
+      <header>
+        <h1>Star
+          <span id="yellow">Wars</span> Land</h1>
+        <h2>Visit a galaxy far far away</h2>
+      </header>
 
-  <h3>Descendent selectors</h3>
-  <p>great for targeting eg. p tags in a footer only.</p>
+      <!-- navigation -->
+      <nav>
+        <ul class="navMenu">
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="accom.html">
+            <li>Accomodation</li>
+          </a>
+          <a href="activities.html">
+            <li>Activities</li>
+          </a>
+          <a href="gallery.html">
+            <li>Gallery</li>
+          </a>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+    <!-- /.topHeader  -->
+
+    <h3>Notes</h3>
+    <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quaerat pariatur beatae nulla, neque totam, vitae
+      obcaecati architecto, magni quis dolorum placeat ex? Illo iure dolorum esse, repellat neque distinctio voluptate accusantium
+      sequi quas molestiae, mollitia dolor. Atque, quo placeat.</p>
+    <section id="floats">
+
+      <h3>Floats</h3>
+      <p>Moving things accross the page.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ratione tempore eos itaque nesciunt iste molestiae suscipit
+        cum deserunt delectus natus ab adipisci fugit, repellendus placeat eaque, minima laudantium maxime a, rerum eius
+        assumenda? Itaque ducimus consectetur quasi, autem nostrum ipsa aliquid consequuntur reprehenderit repellat quas
+        optio neque sunt repellendus rerum maiores atque, quod necessitatibus eveniet corporis tenetur iste quisquam.</p>
+
+      <div class="sidebar">
+        <h2>Eat Sleep Donut Repeat</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores odit tempore deserunt aut sint repellat voluptates
+          ratione fugit, veritatis odio!</p>
+        <ul>
+          <li>Pink</li>
+          <li>Chocolate</li>
+          <li>Glazed</li>
+          <li>Jam</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <div class="column">
+      <section>
+        <article>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae animi autem vitae nihil illo perferendis quos?
+            Tempora totam enim autem et vitae magni ea iste alias molestiae. Doloribus a impedit amet repellendus quam architecto
+            veniam ipsa fugit saepe sequi cupiditate, optio tenetur voluptates et asperiores corporis voluptatum, sunt vitae
+            explicabo aut temporibus. Tempore autem earum assumenda, officiis doloremque quis ipsam quam in iusto cumque
+            voluptatum, aspernatur vero voluptates fuga numquam.</p>
+        </article>
+      </section>
+    </div>
+    <div class="column">
+      <section>
+        <article>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae animi autem vitae nihil illo perferendis quos?
+            Tempora totam enim autem et vitae magni ea iste alias molestiae. Doloribus a impedit amet repellendus quam architecto
+            veniam ipsa fugit saepe sequi cupiditate, optio tenetur voluptates et asperiores corporis voluptatum, sunt vitae
+            explicabo aut temporibus. Tempore autem earum assumenda, officiis doloremque quis ipsam quam in iusto cumque
+            voluptatum, aspernatur vero voluptates fuga numquam.</p>
+        </article>
+      </section>
+    </div>
+    <div class="column">
+      <section>
+        <article>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae animi autem vitae nihil illo perferendis quos?
+            Tempora totam enim autem et vitae magni ea iste alias molestiae. Doloribus a impedit amet repellendus quam architecto
+            veniam ipsa fugit saepe sequi cupiditate, optio tenetur voluptates et asperiores corporis voluptatum, sunt vitae
+            explicabo aut temporibus. Tempore autem earum assumenda, officiis doloremque quis ipsam quam in iusto cumque
+            voluptatum, aspernatur vero voluptates fuga numquam.</p>
+          <p>for clearin floats see this
+            <a href="https://css-tricks.com/all-about-floats/">article.</a>
+          </p>
+        </article>
+      </section>
+    </div>
+    <div style="clear: both;"></div>
+    <section id="l37">
+      <div class="mainElement">
+        <h1>Practising Positioning</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolor magnam eligendi soluta porro maxime tenetur
+          error blanditiis dolore ea recusandae praesentium repellendus laboriosam totam odio, eos aut, dolorum velit iste,
+          quidem deserunt? Possimus incidunt doloremque dolorum delectus consectetur architecto.</p>
+
+        <div class="secondElement">
+          <h2>Relative Positioning</h2>
+          <p class="box" id="relative">
+            Example for relative
+          </p>
+        </div>
+        <div class="thirdElement">
+          <h2>Relative Positioning</h2>
+          <p class="boxed" id="relative">
+            Example for relative
+          </p>
+        </div>
+        <div class="fixedElement">
+          <h2>fixed Positioning</h2>
+          <p class="boxed" id="fixed">
+            Example for fixed
+          </p>
+        </div>
+      </div>
 
 
+    </section>
 </body>
 
 </html>

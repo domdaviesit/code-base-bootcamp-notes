@@ -24,3 +24,16 @@ p.box {
   float: left;
   padding: 5px;
 }
+
+#l37 {
+  background: #b1566d;
+}
+
+.mainElement {
+  background: #fff;
+  border: 2px solid #3b3b3b;
+  color: #1f1f1f;
+  padding: 20px;
+}
+
+.boxed
