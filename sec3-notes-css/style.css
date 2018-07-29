@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #b1566d;
 }
 
 p.box {
@@ -25,10 +26,11 @@ p.box {
   padding: 5px;
 }
 
-#l37 {
-  background: #b1566d;
-}
+/* Lecture 37 styles  */
 
+h1 {
+  font-size: 50px;
+}
 .mainElement {
   background: #fff;
   border: 2px solid #3b3b3b;
@@ -36,4 +38,15 @@ p.box {
   padding: 20px;
 }
 
-.boxed
+.boxed {
+  background: #b1566d;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  height: 150px;
+  width: 150px;
+}
+
+#relative {
+  position: relative;
+}
