@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  /* css3  alpha channel */
+  border: 8px solid rgba(0, 0, 0, 0.9);
+}
+
+header {
+  background: url(../more-notes/img/fsociety-main.jpg);
+  background-size: cover;
+  height: 780px;
+}
+h1 {
+  font-family: "VT323", monospace;
+  font-size: 120px;
+  color: #fff;
+  padding-top: 400px;
+}
+
+.main-site {
+  margin-top: 50px;
+  font-family: "PT Mono", monospace;
+}
+
+.member {
+  padding-bottom: 70px;
+}
+
+h2 {
+  padding: 50px;
+}
+
+img {
+  width: 40%;
+  /* css3 */
+  border-radius: 25px;
+}
+
+footer {
+  padding: 20px;
+}
